@@ -1,0 +1,3 @@
+[build]
+dist = "dist"  # Output folder for final build
+public_url = "/block-blast-breaker/"  # GitHub Pages will serve from here

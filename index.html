@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Blast Breaker</title>
+</head>
+<body>
+    <h1>Block Blast Breaker</h1>
+    <div id="app"></div> <!-- Yew will inject UI here -->
+    <script type="module">
+        import init from "./pkg/block_blast_breaker.js";  // Loads Rust WASM
+        init();
+    </script>
+</body>
+</html>
